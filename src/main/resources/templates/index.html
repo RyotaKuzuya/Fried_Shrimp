@@ -60,8 +60,16 @@
             // フォームを取得
             var form = document.getElementById('playerForm');
 
-            // フォームを送信
-            form.submit();
+            // プレイヤー名を取得
+            var playerName = document.getElementById('playerName').value;
+
+            // プレイヤー名がnullまたは空でないか確認
+            if (playerName === null || playerName.trim() === "") {
+                alert('プレイヤー名を入力してください！');
+            } else {
+                // フォームを送信
+                form.submit();
+            }
         }
 
         function showRanking() {
