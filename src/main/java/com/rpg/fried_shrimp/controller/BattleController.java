@@ -5,10 +5,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.rpg.fried_shrimp.model.Battle;
 
-// import com.example.demo.model.Battle;
-// import com.example.demo.model.Player;
-// import com.example.demo.service.BattleService;
-// import com.example.demo.service.PlayerService;
 
 //@Controller
 //@RequestMapping("/battle")
