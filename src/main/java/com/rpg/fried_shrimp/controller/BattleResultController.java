@@ -3,9 +3,6 @@ package com.rpg.fried_shrimp.controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.rpg.fried_shrimp.model.Battle;
-import com.rpg.fried_shrimp.model.Player;
-
 //@Controller
 //@RequestMapping("/battle/result")
 public interface BattleResultController {
@@ -13,8 +10,8 @@ public interface BattleResultController {
 	 //private final BattleService battleService;
 	 //private final PlayerService playerService;
 	 
-	 Battle battle = battleService.getBattleById(battleId);
-	 Player player = playerService.getPlayerById(battle.getPlayerId());
+	 //Battle battle = battleService.getBattleById(battleId);
+	// Player player = playerService.getPlayerById(battle.getPlayerId());
 	 
 	 	// @GetMapping("/battle/result/{battleId}")
 	    public String showBattleResult(@PathVariable Long battleId, Model model);
